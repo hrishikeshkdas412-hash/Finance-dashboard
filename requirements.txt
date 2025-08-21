@@ -1,4 +1,5 @@
 streamlit
+seaborn
 pandas
 numpy
 yfinance
