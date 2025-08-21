@@ -517,4 +517,10 @@ elif page == "Portfolio Analysis":
                 plot_efficient_frontier(stock_list, start=start_date, rf=risk_free_rate, num_portfolios=int(num_portfolios))
             except Exception as e:
                 st.error(f"Error: {e}")
-
+st.markdown("---")
+st.markdown(
+    "<div style='text-align: center;'>"
+    "Made with ❤️ by <b>Hrishikesh</b>"
+    "</div>",
+    unsafe_allow_html=True
+)
